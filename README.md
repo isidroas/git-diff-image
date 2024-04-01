@@ -91,6 +91,17 @@ It will tell you what it's done, so it should look something like this:
 + git config --global diff.image.command '~/git-diff-image/git_diff_image'
 ```
 
+Try without installation
+------------------------
+
+```
+git config diff.image.command $(realpath diff-image)
+cd images
+make earth_with_label.jpg
+cp earth_with_label.jpg earth.jpg
+git diff earth.jpg
+```
+
 Git LFS
 -------
 
