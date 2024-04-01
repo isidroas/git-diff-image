@@ -32,7 +32,7 @@ $ diff-image anImageThatHasChanged1.jpg anImageThatHasChanged2.jpg
 # The same as above, only using files on disk not git differences.
 ```
 
-![Screenshot](example-comparison.png?raw=true)
+![Screenshot](./images/example-comparison.png?raw=true)
 
 
 Installation
